@@ -1,0 +1,28 @@
+
+> crypto-flux-core@0.1.0 lint
+> eslint
+
+
+C:\Crypto-Flux-Core\app\watchlist\page.tsx
+  2:8  warning  'CoinTable' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Crypto-Flux-Core\components\providers\WatchlistProvider.tsx
+  26:21  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Crypto-Flux-Core\components\providers\WatchlistProvider.tsx:26:21
+  24 |                 const parsed = JSON.parse(saved);
+  25 |                 if (Array.isArray(parsed)) {
+> 26 |                     setWatchlist(new Set(parsed));
+     |                     ^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  27 |                 }
+  28 |             } catch (e) {
+  29 |                 console.error("Failed to parse watchlist", e);  react-hooks/set-state-in-effect
+
+Γ£û 2 problems (1 error, 1 warning)
+
