@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Project Banner](![alt text](image.png))
+![Project Banner]![alt text](image.png)
 
 ### 🚀 Next-Gen Real-time Cryptocurrency Tracking Dashboard
 
