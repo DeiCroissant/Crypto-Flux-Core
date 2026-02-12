@@ -70,12 +70,12 @@ Follow these steps to set up the project locally:
 git clone [https://github.com/DeiCroissant/crypto-flux-core.git](https://github.com/DeiCroissant/crypto-flux-core.git)
 cd crypto-flux-core
 
-### 2. Install dependencies
+2. Install dependencies
 npm install
 # or
 yarn install
 
-### 3. Run the development server
+3. Run the development server
 npm run dev
 
 Open http://localhost:3000 with your browser to see the result.
