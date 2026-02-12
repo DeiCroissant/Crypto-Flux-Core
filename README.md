@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪙 Crypto Flux Core
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Project Banner](https://via.placeholder.com/1200x400?text=Crypto+Flux+Core+Dashboard)
+*(Note: Hãy thay link ảnh này bằng ảnh chụp màn hình dự án thật của bạn)*
 
+### 🚀 Next-Gen Real-time Cryptocurrency Tracking Dashboard
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-black?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
+
+</div>
+
+---
+
+## 📖 Introduction
+
+**Crypto Flux Core** is a high-performance web application designed for real-time cryptocurrency monitoring. Built with the bleeding-edge **Next.js 16 App Router** and **React 19**, it delivers a seamless and lightning-fast user experience.
+
+The project features a modern UI styled with **Tailwind CSS v4**, interactive charts powered by **Chart.js**, and a robust personalized watchlist system.
+
+## ✨ Key Features
+
+- **⚡ Real-time Market Data:** Live updates for cryptocurrency prices and market trends.
+- **📊 Interactive Charts:** Dynamic price visualization using `react-chartjs-2`.
+- **⭐ Smart Watchlist:** Persist your favorite coins and track them effortlessly (State Management).
+- **🎨 Modern UI/UX:** Responsive design built with Tailwind CSS v4 and Lucide React icons.
+- **🛣️ Dynamic Routing:** Optimized detailed pages for each individual cryptocurrency.
+
+## 🛠️ Tech Stack
+
+This project utilizes the latest bleeding-edge web technologies available in 2026.
+
+<div align="center">
+
+### Core Framework & Language
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js 16" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript_5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 5" />
+</p>
+
+### Styling & Visualization
+<p>
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
+  <img src="https://img.shields.io/badge/Chart.js-F5788D?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js" />
+  <img src="https://img.shields.io/badge/Lucide_Icons-F7DF1E?style=for-the-badge&logo=lucide&logoColor=black" alt="Lucide Icons" />
+</p>
+
+### Tools & Quality Control
+<p>
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+</p>
+
+</div>
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### 1. Clone the repository
 ```bash
+git clone [https://github.com/DeiCroissant/crypto-flux-core.git](https://github.com/DeiCroissant/crypto-flux-core.git)
+cd crypto-flux-core
+
+### 2. Install dependencies
+npm install
+# or
+yarn install
+
+### 3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000 with your browser to see the result.
