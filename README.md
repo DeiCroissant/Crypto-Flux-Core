@@ -2,8 +2,7 @@
 
 <div align="center">
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Crypto+Flux+Core+Dashboard)
-*(Note: Hãy thay link ảnh này bằng ảnh chụp màn hình dự án thật của bạn)*
+![Project Banner](![alt text](image.png))
 
 ### 🚀 Next-Gen Real-time Cryptocurrency Tracking Dashboard
 
